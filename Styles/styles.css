@@ -4,10 +4,9 @@ h2{
     text-align: end;
 }
 body {
-    background: url("images/Branding.png") no-repeat fixed;
-    background-size:contain;
-    background-color: black;
-  }
+    background: rgb(0, 0, 0) url("/bsdc-alfie-brown.github.io/Images/Branding.png");
+    background-size: contain;
+}
 h2{
     margin-top: 50%;
 }
