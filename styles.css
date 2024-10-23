@@ -1,0 +1,12 @@
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: end;
+}
+body {
+    background: rgb(0, 0, 0) url("images/Branding.png") no-repeat fixed;
+    background-size:contain;
+  }
+h2{
+    margin-top: 50%;
+}
