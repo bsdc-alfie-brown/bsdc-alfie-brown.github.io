@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.bob {
+    height: 360px;
+    width: 360px;
+    border-radius: 25px;
+    align-items: center;
+    background-color: rgb(255, 166, 0);
+    background-repeat: no-repeat;
+    justify-content: center;
+
+}
