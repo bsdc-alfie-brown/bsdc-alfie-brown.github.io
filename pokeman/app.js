@@ -48,29 +48,51 @@ Gotta catch 'em all, Pokémon`)
 
 const container = document.querySelector('#container');
 
-for (i = 0; i <= 10250; i++) {
+for (i = 0; i <= 1025; i++) {
+    const newImg = document.createElement('img');
+    newImg.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png`
+    container.appendChild(newImg);
+}
+i = 10001
+for (i = 10001; i <= 10277; i++) {
     const newImg = document.createElement('img');
     newImg.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png`
     container.appendChild(newImg);
 }
 i = 0
-for (i = 0; i <= 10250; i++) {
+for (i = 0; i <= 1025; i++) {
+    const newImg = document.createElement('img');
+    newImg.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/${i}.png`
+    container.appendChild(newImg);
+}
+i = 10001
+for (i = 10001; i <= 10277; i++) {
     const newImg = document.createElement('img');
     newImg.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/${i}.png`
     container.appendChild(newImg);
 }
 i = 0
-for (i = 0; i <= 10250; i++) {
+for (i = 0; i <= 1025; i++) {
+    const newImg = document.createElement('img');
+    newImg.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/${i}.png`
+    container.appendChild(newImg);
+}
+i = 10001
+for (i = 10001; i <= 10277; i++) {
     const newImg = document.createElement('img');
     newImg.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/${i}.png`
     container.appendChild(newImg);
 }
 i = 0
-for (i = 0; i <= 10250; i++) {
+for (i = 0; i <= 1025; i++) {
     const newImg = document.createElement('img');
-    newImg.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/${i}.png`
+    newImg.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny${i}.png`
     container.appendChild(newImg);
 }
-
-
-console.log(newImg)
+i = 10001
+for (i = 10001; i <= 10277; i++) {
+    const newImg = document.createElement('img');
+    newImg.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny${i}.png`
+    container.appendChild(newImg);
+}
+i = 0
